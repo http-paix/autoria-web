@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a:link{
     color: blue;
 }
@@ -9,3 +15,30 @@ a:visited{
 a:hover{
     color: #0079E5;
 }
+
+.text-box:focus{
+    color: red;
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6; 
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.gallery-items{
+    
+}
+
