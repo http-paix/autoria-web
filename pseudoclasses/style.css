@@ -31,15 +31,16 @@ a:hover{
 }
 
 #formulario {
-    width: 30%; /* Largura da div */
-    margin: auto; /* Centraliza a div */
-    padding: 100px; /* Espaçamento interno */
-    background-color: #f0f0f0; /* Cor de fundo da div */
-    border: 1px solid #ccc; /* Borda opcional */
+    width: 30%;
+    margin: auto; 
+    padding: 100px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
     border-radius: 50px;
 }
 .text-box:focus{
-    color: crimson;
+    border: 3px solid #f4c1c1;
+    outline: none;
 }
 
 input[type="checkbox"]:checked + label {
