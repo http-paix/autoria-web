@@ -22,3 +22,35 @@ button.primary {
     color: white;
     
 }
+
+div > p {
+    color: red;
+}
+
+#menu {
+    color: blue;
+}
+
+.navbar {
+    color: green;
+}
+
+nav {
+    color: red;
+}
+
+/*q10: o estilo aplicado será o preto, pois o ID possui maior especificidade*/
+nav {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
