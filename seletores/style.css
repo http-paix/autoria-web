@@ -16,3 +16,9 @@ h1, h2, h3 {
 nav ul li {
     list-style-type: none;
 }
+
+button.primary {
+    background-color: green;
+    color: white;
+    
+}
