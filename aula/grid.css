@@ -1,0 +1,47 @@
+.imagem{
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+/* #f1, #f4{
+    grid-column: 1 / 3;
+}
+#f2, #f5 {
+    grid-column: 3 / 8;
+}
+#f3, #f6 {
+    grid-column: 8 / 12;
+} */
+
+#f2 {
+    background-color: white;
+}
+
+#f3 {
+    background-color: darkblue;
+}
+
+#f4 {
+    background-color: aqua;
+}
+
+#f5 {
+    background-color: greenyellow;
+}
+
+#f6 {
+    background-color: green;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(10,1fr) ;*/ 
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: repeat(5,1fr) ;
+
+    gap: 10px;
+    max-width: 100vw;
+}
